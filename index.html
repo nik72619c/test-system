@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TEST-SYSTEM-PROJECT</title>
+    <script src="assets/js/custom/ajax.js"></script>
+<script src="assets/js/custom/userOperations.js"></script>
+<script src="assets/js/custom/controller.js"></script>
+
+ 
+</head>
+<body>
+    
+</body>
+</html>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <title>online test system</title>
+    
+    <link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/stylesheets/custom/style.css">
+  </head>
+  <body>
+
+    <div class="welcome-screen">
+    <h1 class="display-3">WELCOME TO THE ONLINE CODING TEST !</h1>
+    </div>        
+
+    <div class="login-screen" id="show">
+
+            <form>
+                    <div class="form-group text" style="width: 400px;">
+                      <label for="exampleInputEmail1">Userid</label>
+                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Userid">
+                      
+                    </div>
+                    <div class="form-group pwd" style="width: 400px;">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                   
+                    <button type="button" class="btn btn-primary" id="loginbtn">LOGIN</button>
+
+                   <h3 id="welcome"></h3>
+                  </form>
+                  
+                </div>
+
+
+                <div class="choose-test-screen" id="hide">
+
+                        <h1 class="display-4">CHOOSE YR DOMAIN !</h1>
+                    
+                        <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action" id="java">
+                                  JAVA
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action" id="javascript">JAVASCRIPT</a>
+                             
+                                <a href="#" class="list-group-item list-group-item-action" id="c">C</a>
+                                <a href="#" class="list-group-item list-group-item-action " id="c++">C++</a>
+                              </div>
+
+                </div>
+                <h2 id="counter"></h2><br><br>
+                <div class="test-screen" id="hide">
+                  <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      
+                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                  </nav>
+                  <br>
+                 
+
+                  <button class="btn btn-primary" id="submit">submit test</button>
+
+                  <div id="result"></div>
+
+
+</div>
+
+<div id="result-screen showit" style="transform: translateX(50px);text-align: center;">
+  <!-- <table border=1>
+
+    <thead>
+      <tr>
+      <td>QUES NO</td>
+      <td>CORRECT ANS</td>
+      <td>YR ANS</td>
+      <td>MARKS AWARDED</td>
+      </tr>
+    </thead>
+
+    <tbody id="result-table">
+     
+
+    </tbody>
+
+  </table> -->
+</div>
+
+  </body>
+</html>

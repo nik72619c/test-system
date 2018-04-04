@@ -1,0 +1,196 @@
+body{
+
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+
+}
+
+.welcome-screen{
+
+    opacity: 0;
+animation-name: welcome;
+animation-duration: 3s;
+animation-iteration-count: 1;
+animation-delay: 2s;
+animation-timing-function: linear;
+animation-duration: 4s;
+animation-direction: alternate;
+
+
+}
+
+@keyframes welcome{
+
+0%{
+
+    opacity: 0;
+    display: none;
+
+}
+
+20%{
+
+    opacity: 0.2;
+    display: block;
+}
+
+40%{
+
+    opacity: 0.5;
+    display: block;
+}
+
+60%{
+
+    opacity: 0.6;
+    display: block;
+}
+
+80%{
+
+    opacity: 0.8;
+    display: block;
+}
+
+100%{
+
+    opacity: 1;
+    display: block;
+
+}
+
+}
+
+.login-screen{
+
+    position: absolute;
+    top: 300px;
+    right: 40%;
+}
+
+.navbar{
+
+    transform: translateX(510px);
+    width: 500px;
+}
+
+.list-group a{
+
+    width: 400px;
+    margin-bottom: 20px;
+    
+}
+
+.display-4{
+
+font-size: 30px;
+margin-bottom: 40px;
+}
+
+.choose-test-screen{
+
+transform: translate(500px,110px);
+
+}
+
+#show{
+
+    display: block;
+}
+
+#hide{
+
+    display: none;
+}
+
+.test-screen{
+
+    width: 280px;
+}
+
+.fade{
+
+animation-name: fade;
+animation-delay: 1s;
+animation-duration: 13s;
+animation-iteration-count: 1;
+animation-direction: normal;
+
+}
+
+@keyframes fade{
+
+
+    0%{
+
+        opacity: 0;
+        display: none;
+    
+    }
+    
+    20%{
+    
+        opacity: 0.2;
+        display: block;
+    }
+    
+    40%{
+    
+        opacity: 0.5;
+        display: block;
+    }
+    
+    60%{
+    
+        opacity: 0.6;
+        display: block;
+    }
+    
+    80%{
+    
+        opacity: 0.8;
+        display: block;
+    }
+    
+    100%{
+    
+        opacity: 1;
+        display: block;
+    
+    }
+    
+}
+
+.showit{
+
+
+    display: block;
+}
+
+.hideit{
+
+    display: none;
+}
+
+li{
+
+    cursor: pointer;
+}
+
+.red{
+
+    color: red;
+}
+
+.black{
+
+    color: black;
+}
+
+.button{
+
+    transform: translate(50px,300px);
+}

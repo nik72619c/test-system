@@ -1,0 +1,7 @@
+const userOperations={
+
+
+userList:[],
+userAns:[]
+
+}

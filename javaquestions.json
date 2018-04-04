@@ -1,0 +1,14 @@
+
+
+{
+    
+    "java":
+    
+    [{"question":"this is question 1","questionid":"1","options":["1 option","2 option","3 option","4 option"],"opid":["1","2","3","4","2"]},
+
+    {"question":"this is question 2","questionid":"2","options":["1 option","2 option","3 option","4 option"],"opid":["1","2","3","4","1"]},
+
+    {"question":"this is question 3","questionid":"3","options":["1 option","2 option","3 option","4 option"],"opid":["1","2","3","4","3"]}]
+
+
+}
